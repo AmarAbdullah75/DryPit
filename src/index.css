@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-group {
+  position: relative;
+  /* margin-bottom: 10px; */
+  /* background-color: aqua; */
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  width: 282px;
+  height: 50px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  /* background-color: aqua; */
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.form-control:focus + .form-label,
+.form-control:valid + .form-label {
+  font-size: 12px;
+  transform: translateY(-25px);
+  color: #838095;
+  margin-left: -5px;
+}
+
+.form-label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #838095;
+  font-size: 16px;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+#mainabout, #sectionhome{
+  background-image: url(C:\Users\Amar\OneDrive\Documents\DryPIT\src\assets\23803707_6874251.jpg);
+  background-size: cover;
+}
+
+
+
+
+
+
